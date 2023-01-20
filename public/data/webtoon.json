@@ -52,7 +52,7 @@
  {
   "id": "6",
   "platform": "네이버",
-  "genre": "  드라마",
+  "genre": "  스포츠",
   "image": "https:\/\/shared-comic.pstatic.net\/thumb\/webtoon\/602910\/thumbnail\/thumbnail_IMAG21_e861f2cf-6157-4d33-8e02-7b4cbf0a8baf.jpg",
   "name": "윈드브레이커",
   "webtoonist": "조용석",
@@ -292,7 +292,7 @@
  {
   "id": "30",
   "platform": "네이버",
-  "genre": "  액션",
+  "genre": "스포츠",
   "image": "https:\/\/shared-comic.pstatic.net\/thumb\/webtoon\/769663\/thumbnail\/thumbnail_IMAG21_935bf47d-9219-4f45-8a58-d5a7af13ce51.jpg",
   "name": "더블클릭",
   "webtoonist": "김장훈,박수봉 \/ 박수봉",
@@ -1782,7 +1782,7 @@
  {
   "id": "179",
   "platform": "네이버",
-  "genre": "  드라마",
+  "genre": "스포츠",
   "image": "https:\/\/shared-comic.pstatic.net\/thumb\/webtoon\/750826\/thumbnail\/thumbnail_IMAG21_8bf7d36d-d865-4df0-b76f-f72f288bb2cd.jpg",
   "name": "빌드업",
   "webtoonist": 911,
@@ -3912,7 +3912,7 @@
  {
   "id": "392",
   "platform": "네이버",
-  "genre": "드라마",
+  "genre": "스포츠",
   "image": "https:\/\/shared-comic.pstatic.net\/thumb\/webtoon\/775140\/thumbnail\/thumbnail_IMAG21_2de7a216-571b-4bf9-81b6-11b37126d328.jpg",
   "name": "인피니티",
   "webtoonist": "2오",
@@ -4832,7 +4832,7 @@
  {
   "id": "484",
   "platform": "네이버",
-  "genre": "  드라마",
+  "genre": "  스포츠",
   "image": "https:\/\/shared-comic.pstatic.net\/thumb\/webtoon\/778579\/thumbnail\/thumbnail_IMAG21_793b71dd-eb49-4b91-aff4-a53ba1141822.jpg",
   "name": "스트릿 워크아웃",
   "webtoonist": "장부규",
@@ -5042,7 +5042,7 @@
  {
   "id": "505",
   "platform": "네이버",
-  "genre": "  드라마",
+  "genre": "스포츠",
   "image": "https:\/\/shared-comic.pstatic.net\/thumb\/webtoon\/703844\/thumbnail\/thumbnail_IMAG21_4122261748397257571.jpg",
   "name": "가비지타임",
   "webtoonist": "2사장",
@@ -5551,7 +5551,7 @@
  {
   "id": "556",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1909\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "금수친구들",
   "webtoonist": "짤태식",
@@ -5561,7 +5561,7 @@
  {
   "id": "557",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2797\/sharing\/2x\/1b657399-890e-4f15-b570-d2b3b55928bc.jpg",
   "name": "나도 있어! 근육",
   "webtoonist": "yami",
@@ -5571,7 +5571,7 @@
  {
   "id": "558",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2557\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "도토리 문화센터",
   "webtoonist": "난다",
@@ -5581,7 +5581,7 @@
  {
   "id": "559",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/760\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "딩스뚱스",
   "webtoonist": "딩스",
@@ -5591,7 +5591,7 @@
  {
   "id": "560",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1347\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "반지하셋방",
   "webtoonist": "평범한 자매",
@@ -5601,7 +5601,7 @@
  {
   "id": "561",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2820\/sharing\/2x\/6399d7c4-1d89-48b0-91e5-bd5fcb8c8b6c.jpg",
   "name": "보지 마, 안 괜찮아, 불법이야!",
   "webtoonist": "한국만화가협회, 한국웹툰작가협회",
@@ -5611,7 +5611,7 @@
  {
   "id": "562",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2343\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "부기영화",
   "webtoonist": "급소가격, 여빛",
@@ -5621,7 +5621,7 @@
  {
   "id": "563",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/933\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "뽀짜툰",
   "webtoonist": "유리",
@@ -5631,7 +5631,7 @@
  {
   "id": "564",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1575\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "슬프게도 이게 내 인생",
   "webtoonist": "슬",
@@ -5641,7 +5641,7 @@
  {
   "id": "565",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1903\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "쓰레기 머학생",
   "webtoonist": "수레기",
@@ -5651,7 +5651,7 @@
  {
   "id": "566",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2720\/sharing\/2x\/bd15af9e-3499-4ff0-bde4-9369b6ef9665.jpg",
   "name": "아오링 도쿄",
   "webtoonist": "아오링",
@@ -5661,7 +5661,7 @@
  {
   "id": "567",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1855\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "열무와 알타리",
   "webtoonist": "유영",
@@ -5671,7 +5671,7 @@
  {
   "id": "568",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/198\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "오무라이스 잼잼",
   "webtoonist": "조경규",
@@ -5681,7 +5681,7 @@
  {
   "id": "569",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2600\/sharing\/2x\/890ef0c6-28bf-44f7-9ab8-9b705f1f2aef.jpg",
   "name": "우리 청춘의 사랑은",
   "webtoonist": "손달섭",
@@ -5691,7 +5691,7 @@
  {
   "id": "570",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1078\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "유부녀의 탄생",
   "webtoonist": "김환타",
@@ -5701,7 +5701,7 @@
  {
   "id": "571",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1703\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "이대로 멈출 순 없다",
   "webtoonist": "자룡, 골왕",
@@ -5711,7 +5711,7 @@
  {
   "id": "572",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1140\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "일단 질러! 질렐루야",
   "webtoonist": "yami",
@@ -5721,7 +5721,7 @@
  {
   "id": "573",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2763\/sharing\/2x\/23c013f8-8e94-414e-bf93-dd4c30d975b5.jpg",
   "name": "종말 후 라이브",
   "webtoonist": "불암산",
@@ -5731,7 +5731,7 @@
  {
   "id": "574",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "개그",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1295\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "퀴퀴한 일기",
   "webtoonist": 28,
@@ -5741,7 +5741,7 @@
  {
   "id": "575",
   "platform": "카카오",
-  "genre": "개그, 일상",
+  "genre": "일상",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/93\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "팬더댄스",
   "webtoonist": "조경규",
@@ -6491,7 +6491,7 @@
  {
   "id": "650",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "순정",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2143\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "그 책에 마음을 주지 마세요",
   "webtoonist": "문시현, 임조조",
@@ -6501,7 +6501,7 @@
  {
   "id": "651",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2726\/sharing\/2x\/f6349461-115c-482e-9c20-7e748233e56c.jpg",
   "name": "나의 추락이 찬란하도록",
   "webtoonist": "미울, BV",
@@ -6511,7 +6511,7 @@
  {
   "id": "652",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "순정",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2778\/sharing\/2x\/73a6b250-9f7b-44c3-9354-fd2d1df3b691.jpg",
   "name": "늑대 대공의 반려인간",
   "webtoonist": "이서현",
@@ -6521,7 +6521,7 @@
  {
   "id": "653",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2960\/sharing\/2x\/66ded894-79e3-4458-9e28-d97417efc76a.jpg",
   "name": "렐름 오브 퀸 -여왕의 영역-",
   "webtoonist": "전뇌조율사, 라페",
@@ -6531,7 +6531,7 @@
  {
   "id": "654",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "순정",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2522\/sharing\/2x\/9c904390-4104-4bf2-9e89-6101b5342b90.jpg",
   "name": "로엘린은 미래를 걷는다",
   "webtoonist": "로지야",
@@ -6541,7 +6541,7 @@
  {
   "id": "655",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1796\/sharing\/2x\/259ab0b6-28c3-4e2b-916b-1ad8b1eb9eb4.jpg",
   "name": "샬롯에게는 다섯 명의 제자가 있다",
   "webtoonist": "용용",
@@ -6551,7 +6551,7 @@
  {
   "id": "656",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "순정",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2753\/sharing\/2x\/0e7854c2-29d8-4d30-813d-f826bfddd354.jpg",
   "name": "왕관 없는 여왕",
   "webtoonist": "김라무",
@@ -6561,7 +6561,7 @@
  {
   "id": "657",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2878\/sharing\/2x\/45a6c6a1-eead-438b-a5d3-52987af14eb0.jpg",
   "name": "이봐요, 아기 공작님 누나만 믿어!",
   "webtoonist": "문시현, 허둥•지둥",
@@ -6571,7 +6571,7 @@
  {
   "id": "658",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "순정",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2749\/sharing\/2x\/2d98b0d0-471b-42b0-8b42-0f5fd5730aad.jpg",
   "name": "주문을 말해, 로즈!",
   "webtoonist": "해랑",
@@ -6581,7 +6581,7 @@
  {
   "id": "659",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2774\/sharing\/2x\/86bbab8f-9263-4618-bd8f-b9ce9c7a8072.jpg",
   "name": "집으로 돌려보내 주세요",
   "webtoonist": "이지",
@@ -6591,7 +6591,7 @@
  {
   "id": "660",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "순정",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/3013\/sharing\/2x\/2114e8d2-9534-4cea-b8dc-492103234c4e.jpg",
   "name": "프린세스",
   "webtoonist": "한승원, 프린세스프로덕션",
@@ -6601,7 +6601,7 @@
  {
   "id": "661",
   "platform": "카카오",
-  "genre": "순정, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1986\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "후궁공략",
   "webtoonist": "봉봉",
@@ -6711,7 +6711,7 @@
  {
   "id": "672",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2837\/sharing\/2x\/0db98023-1fe2-4352-a4a3-c2110a66ce30.jpg",
   "name": 106,
   "webtoonist": "강태경",
@@ -6721,7 +6721,7 @@
  {
   "id": "673",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1931\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "강호표사",
   "webtoonist": "OZi",
@@ -6731,7 +6731,7 @@
  {
   "id": "674",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2155\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "관존 이강진",
   "webtoonist": "노경찬, 송윤달",
@@ -6741,7 +6741,7 @@
  {
   "id": "675",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2934\/sharing\/2x\/7285d5a0-0a71-4b20-bc1d-c6f4a1fe2c1d.jpg",
   "name": "길동",
   "webtoonist": "동훈",
@@ -6751,7 +6751,7 @@
  {
   "id": "676",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2639\/sharing\/2x\/df70e31a-fefa-47d4-861c-90c8d80c80a7.jpg",
   "name": "나에게 온 달",
   "webtoonist": "석빈",
@@ -6761,7 +6761,7 @@
  {
   "id": "677",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "액션",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2589\/sharing\/2x\/5e0a85bd-79d3-416b-bf4d-811799d535ba.jpg",
   "name": "대사형 선유",
   "webtoonist": "노경찬, 박창환",
@@ -6771,7 +6771,7 @@
  {
   "id": "678",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2796\/sharing\/2x\/1dc14f85-cbf3-447e-bd87-02230e378515.jpg",
   "name": "불멸의 투귀",
   "webtoonist": "옥한돌",
@@ -6781,7 +6781,7 @@
  {
   "id": "679",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2849\/sharing\/2x\/8a07bbf7-20ef-4c8d-a264-8618f02d6278.jpg",
   "name": "싸움귀",
   "webtoonist": "옥한돌",
@@ -6791,7 +6791,7 @@
  {
   "id": "680",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1395\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "아비무쌍",
   "webtoonist": "노경찬, 이현석",
@@ -6801,7 +6801,7 @@
  {
   "id": "681",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "스포츠",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2599\/sharing\/2x\/be7c029e-bfb4-4b1f-9681-1b25b9240b95.jpg",
   "name": "엑스텐",
   "webtoonist": "도안나, 안재진",
@@ -6811,7 +6811,7 @@
  {
   "id": "682",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2153\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "천광명월",
   "webtoonist": "석빈",
@@ -6821,7 +6821,7 @@
  {
   "id": "683",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "스포츠",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1361\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "프레너미",
   "webtoonist": "돌석",
@@ -6831,7 +6831,7 @@
  {
   "id": "684",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2936\/sharing\/2x\/207ae1a5-bf48-42c4-8aa8-236c0244f0ed.jpg",
   "name": "금강야차",
   "webtoonist": "박시홍",
@@ -6841,7 +6841,7 @@
  {
   "id": "685",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2517\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "무법대학",
   "webtoonist": "기령, 조민호",
@@ -6851,7 +6851,7 @@
  {
   "id": "686",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "액션",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/3014\/sharing\/2x\/74d433de-7993-47f6-a1ff-850855b5b3b5.jpg",
   "name": "무적자",
   "webtoonist": "노경찬, 휘",
@@ -6861,7 +6861,7 @@
  {
   "id": "687",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "액션",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2308\/sharing\/2x\/d630b11e-d620-43be-b079-c3a6e98f6eae.jpg",
   "name": "샤크",
   "webtoonist": "운(雲), 김우섭",
@@ -6871,7 +6871,7 @@
  {
   "id": "688",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "액션",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1497\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "주말 도미 시식회",
   "webtoonist": "이용우",
@@ -6881,7 +6881,7 @@
  {
   "id": "689",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "액션",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1545\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "풍검",
   "webtoonist": "김철현",
@@ -6891,7 +6891,7 @@
  {
   "id": "690",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "액션",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2806\/sharing\/2x\/c77f0939-96b2-4cc3-ac3b-10df0f5b65ef.jpg",
   "name": "한따까리",
   "webtoonist": "금기혁",
@@ -6901,7 +6901,7 @@
  {
   "id": "691",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "무협\/사극",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2080\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "허약선생",
   "webtoonist": "철범, 울펜",
@@ -6911,7 +6911,7 @@
  {
   "id": "692",
   "platform": "카카오",
-  "genre": "액션, 무협\/사극",
+  "genre": "액션",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/702\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "PEAK",
   "webtoonist": "홍성수, 임강혁",
@@ -6921,7 +6921,7 @@
  {
   "id": "693",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2510\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "26번째 살인",
   "webtoonist": "수오, 아비디 이노우에",
@@ -6931,7 +6931,7 @@
  {
   "id": "694",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2598\/sharing\/2x\/4e967286-1166-4f31-b523-f66035f64984.jpg",
   "name": "가비왕",
   "webtoonist": "만두",
@@ -6941,7 +6941,7 @@
  {
   "id": "695",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2898\/sharing\/2x\/cd1ba772-b886-4c58-9d14-f6c6191feda7.jpg",
   "name": "고스트 터미널",
   "webtoonist": "GAR2, 오쌤",
@@ -6951,7 +6951,7 @@
  {
   "id": "696",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2626\/sharing\/2x\/1d262aa7-9bab-4110-838c-4aeef3c8b3fa.jpg",
   "name": "귀싸대기",
   "webtoonist": "지뚱",
@@ -6961,7 +6961,7 @@
  {
   "id": "697",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2712\/sharing\/2x\/d8708423-ffef-4703-b23b-f5b7b092c333.jpg",
   "name": "귀의하나이다",
   "webtoonist": "인경",
@@ -6971,7 +6971,7 @@
  {
   "id": "698",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1863\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "그녀의 앵무새",
   "webtoonist": "금계수",
@@ -6981,7 +6981,7 @@
  {
   "id": "699",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "순정",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2690\/sharing\/2x\/5059aec4-c1b5-4ae4-87e5-2af619e827da.jpg",
   "name": "그때 우리가 조아한",
   "webtoonist": "YOON, 움비",
@@ -6991,7 +6991,7 @@
  {
   "id": "700",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2680\/sharing\/2x\/402c05f8-69ef-44ce-b755-e30b81904c8a.jpg",
   "name": "극락왕생",
   "webtoonist": "고사리박사",
@@ -7001,7 +7001,7 @@
  {
   "id": "701",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "스포츠",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2140\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "기프트",
   "webtoonist": "정이리이리",
@@ -7011,7 +7011,7 @@
  {
   "id": "702",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2835\/sharing\/2x\/1decffb3-8142-4a2d-8b63-d389a1802f2d.jpg",
   "name": "남산도서관 환생 북클럽",
   "webtoonist": "송송이",
@@ -7021,7 +7021,7 @@
  {
   "id": "703",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2836\/sharing\/2x\/26e063fc-9dba-4c14-98ec-86e29ef474c3.jpg",
   "name": "뇌명의 하라",
   "webtoonist": "지애",
@@ -7031,7 +7031,7 @@
  {
   "id": "704",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1827\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "닥터 파인의 하루",
   "webtoonist": "김용회",
@@ -7041,7 +7041,7 @@
  {
   "id": "705",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1816\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "닭은 의외로 대단하다",
   "webtoonist": "미역의효능",
@@ -7051,7 +7051,7 @@
  {
   "id": "706",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/869\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "당신의 소원은 무엇입니까",
   "webtoonist": "말랑멜로우, 채덕",
@@ -7061,7 +7061,7 @@
  {
   "id": "707",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2536\/sharing\/2x\/46b53f37-c338-4ae3-a3f9-7a3d86e4f8b0.jpg",
   "name": "더 챌린저",
   "webtoonist": "TryTry(REDICE STUDIO), 키보드",
@@ -7071,7 +7071,7 @@
  {
   "id": "708",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/982\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "도깨비언덕에 왜 왔니?",
   "webtoonist": "김용회",
@@ -7081,7 +7081,7 @@
  {
   "id": "709",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2687\/sharing\/2x\/1ce98c85-9f9f-43fd-ab01-abbde1b8f2c8.jpg",
   "name": "동솔동 아이들",
   "webtoonist": "솔한",
@@ -7091,7 +7091,7 @@
  {
   "id": "710",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2666\/sharing\/2x\/f4c64dbe-61fe-42c7-bc85-20fd7d6294ea.jpg",
   "name": "뒤끝작렬",
   "webtoonist": "조석호, 그린스튜디오",
@@ -7101,7 +7101,7 @@
  {
   "id": "711",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2043\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "무지개다리 파수꾼",
   "webtoonist": "이서",
@@ -7111,7 +7111,7 @@
  {
   "id": "712",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1405\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "바리공주",
   "webtoonist": "김나임",
@@ -7121,7 +7121,7 @@
  {
   "id": "713",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2075\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "백로식당",
   "webtoonist": "확천금, 이나이",
@@ -7131,7 +7131,7 @@
  {
   "id": "714",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2042\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "백의사자",
   "webtoonist": "체사",
@@ -7141,7 +7141,7 @@
  {
   "id": "715",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1531\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "별똥별이 떨어지는 그 곳에서 기다려",
   "webtoonist": "만물상",
@@ -7151,7 +7151,7 @@
  {
   "id": "716",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2814\/sharing\/2x\/1d5adfd1-464e-43e3-ae85-8cc9cb12a427.jpg",
   "name": "사람이라호",
   "webtoonist": "임희",
@@ -7161,7 +7161,7 @@
  {
   "id": "717",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2703\/sharing\/2x\/96f60b4b-ece0-4550-907b-991af6166428.jpg",
   "name": "샤먼",
   "webtoonist": "홍원표",
@@ -7171,7 +7171,7 @@
  {
   "id": "718",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1304\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "소녀신선",
   "webtoonist": "효미",
@@ -7181,7 +7181,7 @@
  {
   "id": "719",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2074\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "수린당 -비늘 고치는 집-",
   "webtoonist": "일링스",
@@ -7191,7 +7191,7 @@
  {
   "id": "720",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2020\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "시간이 머문 집",
   "webtoonist": "헤고",
@@ -7201,7 +7201,7 @@
  {
   "id": "721",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/3051\/sharing\/2x\/91207284-cd8f-4ebe-b0f4-6a01f26f59fc.jpg",
   "name": "심야카페",
   "webtoonist": "수민, 케이드래곤",
@@ -7211,7 +7211,7 @@
  {
   "id": "722",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1299\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "쌍갑포차",
   "webtoonist": "배혜수",
@@ -7221,7 +7221,7 @@
  {
   "id": "723",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2601\/sharing\/2x\/c886bd1b-8deb-43ff-9c48-fdb0b3b4fc55.jpg",
   "name": "옆집 이방인",
   "webtoonist": "조금산",
@@ -7231,7 +7231,7 @@
  {
   "id": "724",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2908\/sharing\/2x\/0c98c845-4b2b-4d71-bf0d-34c2f8f6a0a7.jpg",
   "name": "용궁에서 온 손님",
   "webtoonist": "Hanna",
@@ -7241,7 +7241,7 @@
  {
   "id": "725",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2068\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "우리반 숙경이 ",
   "webtoonist": "해밀 외 1인, 뽀얌",
@@ -7251,7 +7251,7 @@
  {
   "id": "726",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2929\/sharing\/2x\/672ee1cd-dc92-4f01-9d82-7f394b910f3b.jpg",
   "name": "월요일이 사라졌다",
   "webtoonist": "재미핥기, 콩가",
@@ -7261,7 +7261,7 @@
  {
   "id": "727",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "드라마",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2772\/sharing\/2x\/a0382f80-46a6-4db1-a9f2-6412d854b329.jpg",
   "name": "이계막차",
   "webtoonist": "휘요",
@@ -7271,7 +7271,7 @@
  {
   "id": "728",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2887\/sharing\/2x\/685f5b56-ea89-4c0e-81dc-bf19c1e64b50.jpg",
   "name": "이별로 와요",
   "webtoonist": "모래인간, 까말솔",
@@ -7281,7 +7281,7 @@
  {
   "id": "729",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2154\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "이상징후",
   "webtoonist": "잇선",
@@ -7291,7 +7291,7 @@
  {
   "id": "730",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2957\/sharing\/2x\/57cb546f-a1c8-49db-8a65-53cdd1fda171.jpg",
   "name": "존재",
   "webtoonist": "광진, 김경준",
@@ -7301,7 +7301,7 @@
  {
   "id": "731",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1369\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "지옥사원",
   "webtoonist": "네온비, 캐러멜",
@@ -7311,7 +7311,7 @@
  {
   "id": "732",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2756\/sharing\/2x\/70c1a1fd-10bd-4ccd-bc04-ee9d0575f258.jpg",
   "name": "짝과 적",
   "webtoonist": "권라드",
@@ -7321,7 +7321,7 @@
  {
   "id": "733",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/869\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "천연 天緣",
   "webtoonist": "ALIC",
@@ -7331,7 +7331,7 @@
  {
   "id": "734",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1877\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "화폐개혁",
   "webtoonist": "윤필, 임정호",
@@ -7341,7 +7341,7 @@
  {
   "id": "735",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2329\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "환골탈태",
   "webtoonist": "마고(mago)",
@@ -7351,7 +7351,7 @@
  {
   "id": "736",
   "platform": "카카오",
-  "genre": "판타지, 드라마",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2144\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "환상의 아이들",
   "webtoonist": "김다",
@@ -7361,7 +7361,7 @@
  {
   "id": "737",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2511\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "가드패스",
   "webtoonist": "오손도손",
@@ -7371,7 +7371,7 @@
  {
   "id": "738",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1621\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "그라티아",
   "webtoonist": "상민, 기현",
@@ -7381,7 +7381,7 @@
  {
   "id": "739",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2874\/sharing\/2x\/7dd90348-ac06-4e3c-a97d-4288dd36f686.jpg",
   "name": "그리고 소녀가 검을 든다",
   "webtoonist": "이원진, 경오",
@@ -7391,7 +7391,7 @@
  {
   "id": "740",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2869\/sharing\/2x\/57844ff6-ef20-4427-b54b-9d6a47df02cf.jpg",
   "name": "뉴비 매니지먼트",
   "webtoonist": "상민, 기현",
@@ -7401,7 +7401,7 @@
  {
   "id": "741",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1836\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "랑데부",
   "webtoonist": "Hun, 지민",
@@ -7411,7 +7411,7 @@
  {
   "id": "742",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "학원",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2118\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "방구석 여포",
   "webtoonist": "키미하이",
@@ -7421,7 +7421,7 @@
  {
   "id": "743",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2743\/sharing\/2x\/39a76dba-70b7-446f-bc61-2ca5c79fc68d.jpg",
   "name": "번아웃쇼크",
   "webtoonist": "노도환",
@@ -7431,7 +7431,7 @@
  {
   "id": "744",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/792\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "블랙 베히모스",
   "webtoonist": "케이지콘",
@@ -7441,7 +7441,7 @@
  {
   "id": "745",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "학원",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2683\/sharing\/2x\/2e4994c1-43d0-4cd7-80f6-79e98dcc4688.jpg",
   "name": "스위치",
   "webtoonist": "지뚱, 김동찬",
@@ -7451,7 +7451,7 @@
  {
   "id": "746",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2147\/sharing\/2x\/4ba808fc-9a03-4aa8-bb16-14fb468018c8.jpg",
   "name": "액괴",
   "webtoonist": "서강용",
@@ -7461,7 +7461,7 @@
  {
   "id": "747",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2300\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "언데드킹",
   "webtoonist": "윤준식, 백지운",
@@ -7471,7 +7471,7 @@
  {
   "id": "748",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2742\/sharing\/2x\/1f26761a-d415-4bce-9ac3-7d22f61d7575.jpg",
   "name": "업데이터",
   "webtoonist": "89LINE",
@@ -7481,7 +7481,7 @@
  {
   "id": "749",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2022\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "저승사자 온라인",
   "webtoonist": "쑨",
@@ -7491,7 +7491,7 @@
  {
   "id": "750",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "학원",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2942\/sharing\/2x\/c28b1241-bb99-4b99-af01-d4489ac49d77.jpg",
   "name": "최강왕따",
   "webtoonist": "노도환",
@@ -7501,7 +7501,7 @@
  {
   "id": "751",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2368\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "칼집의 아이",
   "webtoonist": "김형민, 양경일",
@@ -7511,7 +7511,7 @@
  {
   "id": "752",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2029\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "크라우드",
   "webtoonist": "만두비, 파크",
@@ -7521,7 +7521,7 @@
  {
   "id": "753",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2915\/sharing\/2x\/8c805416-94cd-4804-83dc-3005f2fd7fc9.jpg",
   "name": "타락도시",
   "webtoonist": "원동",
@@ -7531,7 +7531,7 @@
  {
   "id": "754",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2775\/sharing\/2x\/95c4efd4-1348-4dbf-bb96-a72c199e07e8.jpg",
   "name": "통 속의 브레인",
   "webtoonist": "앵무새, 안도윤",
@@ -7541,7 +7541,7 @@
  {
   "id": "755",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "학원",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2980\/sharing\/2x\/8298c843-6daa-402d-91a1-4a454cbd9cb8.jpg",
   "name": "퇴마전문학교 사월",
   "webtoonist": "배걱",
@@ -7551,7 +7551,7 @@
  {
   "id": "756",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1047\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "트레이스",
   "webtoonist": "네스티캣",
@@ -7561,7 +7561,7 @@
  {
   "id": "757",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2364\/sharing\/2x\/434597b6-eb07-46bc-a564-1cd0a3bec62f.jpg",
   "name": "트리거",
   "webtoonist": "불만있냥",
@@ -7571,7 +7571,7 @@
  {
   "id": "758",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "판타지",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/1381\/sharing\/2x\/eacb00ec-9034-42cb-a533-7c7690741113.jpg",
   "name": "후크",
   "webtoonist": "나진수",
@@ -7581,7 +7581,7 @@
  {
   "id": "759",
   "platform": "카카오",
-  "genre": "학원, 판타지",
+  "genre": "학원",
   "image": "https:\/\/kr-a.kakaopagecdn.com\/P\/C\/2722\/sharing\/2x\/0cd7f595-0018-4a10-a349-ffdb4de0e421.jpg",
   "name": "D-30",
   "webtoonist": "우행우행, 연급사",
@@ -9151,7 +9151,7 @@
  {
   "id": "916",
   "platform": "탑툰",
-  "genre": "#드라마#공포,스릴러#완결",
+  "genre": "스릴러",
   "image": "https:\/\/shtosebzjw.akamaized.net\/assets\/upfile\/co_thumb12\/10492_1596518995.6525.jpg",
   "name": "원킬",
   "webtoonist": "팀 잔나비",
