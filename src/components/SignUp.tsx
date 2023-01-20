@@ -11,7 +11,7 @@ import styles from './styles/SignUp.module.css';
 import UserInput from './UserInput';
 
 function SignUp() {
-  // Recoil 상태 관리 넣으면 조금 깔끔해질까 ...?
+  // hookform , useReducer(Redux)
   const [nickName, setNickName] = useState('');
   const [errorNickName, setErrorNickName] = useState('');
   const [isNickName, setIsNickName] = useState(false);

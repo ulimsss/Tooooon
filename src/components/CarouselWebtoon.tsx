@@ -5,28 +5,10 @@ import styles from './styles/CarouselWebtoon.module.css';
 // requires a loader
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
-import {
-  Webtoon,
-  webtoonsList,
-  Webtoon as WebtoonType,
-} from '../model/webtoon';
+import { Webtoon, webtoonsList } from '../model/webtoon';
 import LogoBadge from './LogoBadge';
 import { CAROUSEL_SIZE } from '../constants/carousel';
-import { getRandomArr } from '../helpers/help';
-
-const createCarouselItems = (
-  webtoons: Webtoon[],
-  carouselNum: number[],
-): WebtoonType[] => {
-  const arr: WebtoonType[] = [];
-  webtoons.map((webtoon, idx) => {
-    if (carouselNum.includes(idx)) {
-      arr.push(webtoon);
-    }
-    return null;
-  });
-  return arr;
-};
+import { createCarouselItems, getRandomArr } from '../helpers/help';
 
 function CarouselWebtoon() {
   const webtoonsLoadable = useRecoilValueLoadable<Webtoon[]>(webtoonsList);
@@ -40,8 +22,8 @@ function CarouselWebtoon() {
     return <div> Loading</div>;
   }
 
-  const carouselNum = getRandomArr(webtoons.length, CAROUSEL_SIZE);
-  // const carouselNum = [818, 795, 830, 839, 810];
+  // const carouselNum = getRandomArr(webtoons.length, CAROUSEL_SIZE);
+  const carouselNum = [818, 795, 830, 839, 810];
   const carouselDataArr = createCarouselItems(webtoons, carouselNum);
 
   return (
@@ -55,7 +37,7 @@ function CarouselWebtoon() {
       infiniteLoop
       className="carousel"
     >
-      {carouselDataArr.map((item: WebtoonType) => (
+      {carouselDataArr.map((item: Webtoon) => (
         <div key={item.id} className={styles.carouselWrapper}>
           <a
             href={item.URL}
