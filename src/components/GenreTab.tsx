@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './styles/GenreTab.module.css';
 
 const GENRE_NAME = [
@@ -16,7 +17,15 @@ const GENRE_NAME = [
 function GenreTab() {
   return (
     <div className={styles.genreTabWapper}>
-      {GENRE_NAME.map((genre) => <a href={`/genre/${genre}`}>{genre}</a>)}
+      {GENRE_NAME.map((genre) => (
+        <Link
+          to={`/genre/${genre}`}
+          key={genre}
+          className={styles.genreTabLink}
+        >
+          {genre}
+        </Link>
+      ))}
     </div>
   );
 }

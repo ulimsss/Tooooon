@@ -8,7 +8,7 @@ import SignUp from './components/SignUp';
 import Auth from './components/Auth';
 import Home from './pages/Home';
 import NotFound from './pages/NotFound';
-// import Genre from './pages/Genre';
+import Genre from './pages/Genre';
 import { isLogin, LoginState } from './model/login';
 import Logout from './components/Logout';
 import { firebaseAuth } from './config';
@@ -38,7 +38,7 @@ function App() {
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/oauth/kakao/callback" element={<Auth />} />
           <Route path="/home" element={<Home />} />
-          {/* <Route path="/genre" element={<Genre />} /> */}
+          <Route path="/genre" element={<Genre />} />
           {/* <Route path={"/platform"} element={<Home />} /> */}
           {/* <Route path={"/board"} element={<Home />} /> */}
         </Routes>
