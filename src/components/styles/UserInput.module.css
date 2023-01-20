@@ -1,0 +1,16 @@
+.inputWrapper input{
+  padding: 10px;
+  width: 300px;
+  height: 40px;
+  background: inherit;
+  color: #969696;
+  border: 2px solid #777676;
+  border-radius: 30px;
+}
+
+.inputWrapper input:focus{
+  background: rgba(0, 0, 0, 0.83);
+  color: rgba(255, 255, 255, 0.83);
+  border: 2px solid rgba(255, 255, 255, 0.83);
+  transition: all 0.6s
+}
