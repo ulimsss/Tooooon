@@ -13,7 +13,9 @@ function Nav() {
   const userLogin = useRecoilState<LoginState>(isLogin);
   return (
     <div className={styles.navWrapper}>
-      <div className={cx(styles.navLogo, styles.cursor)}>Tooooon</div>
+      <Link to="/home" className={cx(styles.navLogo, styles.cursor)}>
+        <img src="/vite.ico" alt="logo" />
+      </Link>
       <div className={styles.navTabs}>
         {tabMenus.length > 0
           ? tabMenus.map((tab, index) => <NavTab tab={tab} key={index} />)

@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
-import { useRecoilState, useSetRecoilState } from 'recoil';
-import { useEffect, useState } from 'react';
+import { useSetRecoilState } from 'recoil';
+import { useEffect } from 'react';
 import Nav from './components/Nav/Nav';
 import Login from './components/User/Login';
 import SignUp from './components/User/SignUp';
@@ -12,8 +12,8 @@ import Genre from './pages/Genre';
 import { isLogin, LoginState } from './model/login';
 import Logout from './components/User/Logout';
 import { firebaseAuth } from './config';
-import GenreTab, { GENRE_NAME } from './components/Genre/GenreTab';
-import { genreTabs } from './constants/genreTabs';
+import Board from './pages/Board';
+import Post from './components/Board/Post';
 
 function App() {
   const setUserLogin = useSetRecoilState<LoginState>(isLogin);
@@ -49,7 +49,8 @@ function App() {
             />
           ))} */}
           {/* <Route path={"/platform"} element={<Home />} /> */}
-          {/* <Route path={"/board"} element={<Home />} /> */}
+          <Route path="/board" element={<Board />} />
+          <Route path="/board/post" element={<Post />} />
         </Routes>
       </div>
     </BrowserRouter>
