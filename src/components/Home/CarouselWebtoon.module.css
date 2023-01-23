@@ -1,0 +1,76 @@
+.carouselWrapper{
+  position: relative;
+  
+}
+
+.carouselWrapper:hover .bgImage{
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.bgImage{
+  height: calc(100vh - 58px);
+  /* width: 100%; */
+  object-fit: fill;
+
+  backface-visibility: hidden;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges; /* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+  -ms-interpolation-mode: nearest-neighbor; /* IE (non-standard property) */
+}
+
+.carouselItem{
+  position: absolute;
+  z-index: 2;
+  font-size: 1em;
+  text-align: left;
+  right: 10%;
+  top: 30%;
+  
+}
+.carouselWrapper:hover .carouselItem{
+  height: 190px;
+  transition: all 0.6s;
+}
+.itemName{
+  font-size: 1.em;
+  font-weight: 800;
+  text-shadow: rgb(0 0 0 / 100%) 0.15rem 0.1rem;
+}
+.itemWebtoonist{
+  margin-top: 3px;
+  padding-left: 3px;
+  padding-bottom: 8px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  border-bottom: 2px solid #fff;
+}
+.itemDescription{
+  display: -webkit-box;
+   -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  font-size: 1rem;
+  width: 300px;
+  height: 70px;
+  margin-top: 38px;
+  font-weight: 400;
+  word-break: break-word;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.carouselWrapper:hover .itemDescription{
+  height: 100px;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+  overflow:auto;
+  scrollbar-width: none;
+}
+.itemURL{
+  width: 100%;
+}
+
