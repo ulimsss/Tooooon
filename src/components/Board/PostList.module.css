@@ -1,0 +1,29 @@
+.postList{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.title{
+ font-size: 1.2rem;
+ text-align: left;
+ font-weight: 800;
+ width: calc(100% - 100px - 50%);
+ margin-left: 2.5%;
+}
+.creator{
+  margin-left: calc(100% - 2.5% - 100px - 45%);
+  text-align: right;
+}
+.date{
+  width: 100px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: right;
+  
+}

@@ -1,0 +1,46 @@
+.headerWrapper{
+  width: calc(100vw - 20%);
+  margin: 110px auto 30px;
+  display: flex;
+ 
+}
+.nickName{
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-left: 5%;
+}
+.recommend{
+  margin-left: 3px;
+  line-height: 30px;
+  font-size: 1.1rem;
+}
+
+.headerNav{
+  font-weight: 600;
+  display: flex;
+  border-bottom: 1px solid #969696;
+}
+
+.index, .title, .creator, .date{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+
+}
+.index{
+  margin-left: 15px;
+  width: 60px;
+}
+
+.title{
+  margin-left: 3%;
+  width: 75px;
+}
+.creator{
+  margin-left: 71%;
+  width: 55px;
+}
+.date{
+  margin-left: 2%;
+  width: 55px;
+}
