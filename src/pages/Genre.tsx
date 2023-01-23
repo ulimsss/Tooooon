@@ -1,6 +1,7 @@
+import { Route } from 'react-router';
 import styles from './styles/Genre.module.css';
-import GenreTab from '../components/GenreTab';
-import GenreWebtoon from '../components/GenreWebtoon';
+import GenreTab from '../components/Genre/GenreTab';
+import GenreWebtoon from '../components/Genre/GenreWebtoon';
 
 function Genre() {
   return (

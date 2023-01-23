@@ -1,5 +1,5 @@
-import Badge from '../components/Badge';
-import HomeWebtoon from '../components/HomeWebtoon';
+import Badge from '../components/Home/Badge';
+import HomeWebtoon from '../components/Home/HomeWebtoon';
 import styles from './styles/Home.module.css';
 
 function Home(): JSX.Element {
