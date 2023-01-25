@@ -21,11 +21,9 @@ export const getRandomArr = (webtoonSize: number, size: number): number[] => {
 };
 
 export const idValidateFunc = (nickName: string): boolean =>
-  // eslint-disable-next-line implicit-arrow-linebreak
   !NICKNAME_REGAX.test(nickName) && nickName.length < MAX_ID_SIZE;
 
 export const pwdValidateFunc = (pwd: string): boolean =>
-  // eslint-disable-next-line implicit-arrow-linebreak
   !passwordRegex.test(pwd) && pwd.length < MAX_PASSWORD_SIZE;
 
 export const createCarouselItems = (

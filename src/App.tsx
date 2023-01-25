@@ -15,7 +15,6 @@ import { firebaseAuth } from './config';
 import Board from './pages/Board';
 import Post from './components/Board/Post';
 import Write from './components/Board/Write';
-import Editing from './components/Board/Editing';
 
 function App() {
   const setUserLogin = useSetRecoilState<LoginState>(isLogin);
