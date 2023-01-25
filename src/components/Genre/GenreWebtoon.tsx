@@ -1,22 +1,23 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { useRecoilValueLoadable } from 'recoil';
+import { useRecoilState, useRecoilValueLoadable } from 'recoil';
 import { getRandomArr, createCarouselItems } from '../../helpers/help';
+import { genreTab, GenreTabType } from '../../model/genre';
 import { Webtoon, webtoonsList } from '../../model/webtoon';
 import styles from './GenreWebtoon.module.css';
 
 function GenreWebtoon() {
+  const genreType = useRecoilState<GenreTabType>(genreTab)[0].genre;
   const webtoonsLoadable = useRecoilValueLoadable<Webtoon[]>(webtoonsList);
   if (webtoonsLoadable.state === 'loading') {
     return <div> Loading</div>;
   }
+
   // eslint-disable-next-line operator-linebreak
   const webtoons: Webtoon[] =
     webtoonsLoadable.state === 'hasValue' ? webtoonsLoadable.contents : [];
 
   const webtoonPlatformList = webtoons.filter(
-    (webtoon) =>
-      // eslint-disable-next-line implicit-arrow-linebreak
-      webtoon.genre.includes('드라마'),
+    (webtoon) => webtoon.genre.includes(genreType),
     // eslint-disable-next-line function-paren-newline
   );
 
@@ -27,8 +28,6 @@ function GenreWebtoon() {
     webtoonPlatformList,
     webtoonSize,
   );
-
-  // 장르 상태관리하여 선택되었으면 set 해주어야됨
   return (
     <div className={styles.webtoonWrapper}>
       {webtoonCardList.map((webtoonCard) => (
