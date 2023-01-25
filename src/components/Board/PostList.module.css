@@ -21,9 +21,15 @@
   text-align: right;
 }
 .date{
+  margin-left: 3%;
   width: 100px;
   font-weight: 600;
   font-size: 0.9rem;
   text-align: right;
   
+}
+
+.title:hover{
+  color: #969696;
+  transition: all 0.3s;
 }

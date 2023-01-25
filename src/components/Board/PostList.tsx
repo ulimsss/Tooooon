@@ -1,15 +1,21 @@
 import { Link } from 'react-router-dom';
-import { postType } from '../../model/post';
+import { PostType } from '../../model/post';
 import styles from './PostList.module.css';
 
 export interface props {
-  postObj: postType;
+  postObj: PostType;
+  // eslint-disable-next-line react/require-default-props
+  index?: number;
 }
 
-function PostList({ postObj }: props) {
+function PostList({ postObj, index }: props) {
   return (
     <div className={styles.postList}>
-      <Link to="/board/post" className={styles.title} state={postObj}>
+      <Link
+        to="/board/post"
+        className={styles.title}
+        state={{ postObj: postObj, index: index }}
+      >
         <div>{postObj.title}</div>
       </Link>
       <div className={styles.creator}>

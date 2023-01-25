@@ -2,3 +2,92 @@
   margin: 0 auto;
   width: calc(100vw - 20%);
 }
+.contentWrapper{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+.contentWrapper div{
+  cursor: default;
+}
+.contentWrapper div:hover{
+  color: #fff;
+}
+
+.index{
+  margin-top: 10px;
+  margin-bottom: 15px;
+  width: 90px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.text{
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+  text-align:left;
+  font-weight: 800;
+}
+
+
+/* delete */
+.buttons{
+  display: block;
+  float: right;
+}
+.buttons button{
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 30px;
+  color: #969696;
+  margin-left: 10px;
+}
+.buttons button:hover{
+  transform: scale(1.05);
+  color: #fff;
+  transition: all 0.6s ease;
+}
+
+.editWrapper form{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.editWrapper form input[type="text"]{
+  background-color: #000;
+  color: #fff;
+  border: solid 1px #969696; 
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.editWrapper form input:first-child{
+  height: 63px;
+  width: 80%;
+}
+
+.editWrapper form input[type="text"]:focus {
+   border: solid 2px #fff; 
+   -webkit-transition: 0.5s; 
+   transition: 0.5s;
+}
+
+.editWrapper .buttons{
+  float: right;
+}
+.inputTitleLabel{
+  position: absolute;
+  top: -6px;
+  left: 14%;
+  background-color: #000;
+}
+.inputTextLabel{ 
+  position: absolute;
+  top: 70px;
+  left: 13%;
+  background-color: #000;
+}

@@ -1,26 +1,20 @@
-import {
-  collection,
-  onSnapshot,
-  orderBy,
-  query,
-  QueryDocumentSnapshot,
-} from 'firebase/firestore';
+import { collection, onSnapshot, orderBy, query } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 import { db } from '../../config';
-import { postType } from '../../model/post';
+import { PostType } from '../../model/post';
 import PostList from './PostList';
 import styles from './PostListView.module.css';
 
+// const postInitail = {
+//   id: '',
+//   title: '',
+//   text: '',
+//   creatorId: '',
+//   createdAt: '',
+// };
+
 function PostListView() {
-  const [contents, setContents] = useState<any>([
-    {
-      id: '',
-      title: '',
-      text: '',
-      creatorId: '',
-      createdAt: '',
-    },
-  ]);
+  const [contents, setContents] = useState<any>([]);
 
   const getData = async () => {
     const q = query(collection(db, 'posts'), orderBy('createdAt', 'desc'));
@@ -35,23 +29,19 @@ function PostListView() {
     );
   };
 
-  const q = query(collection(db, 'posts'));
-  const unsubscribe = onSnapshot(q, (querySnapshot) => {
-    const posts = [];
-    querySnapshot.forEach((snapshot) => {
-      posts.push(snapshot.data().name);
-    });
-  });
-
   useEffect(() => {
     getData();
   }, []);
   return (
     <div className={styles.listWrapper}>
-      {contents?.map((content: postType, idx: number) => (
+      {contents?.map((content: PostType, idx: number) => (
         <div className={styles.postListWrapper}>
           <div className={styles.index}>{contents.length - idx}</div>
-          <PostList key={content.creatorId} postObj={content} />
+          <PostList
+            key={content.creatorId}
+            postObj={content}
+            index={contents.length - idx}
+          />
         </div>
       ))}
     </div>

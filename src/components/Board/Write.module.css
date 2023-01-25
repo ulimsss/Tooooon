@@ -1,0 +1,76 @@
+.writeWrapper{
+  margin: 0 auto;
+  width: calc(100vw - 20%);
+}
+.writeHeader{
+  margin: 110px auto 0px;
+  padding-bottom: 60px;
+  display: flex;
+  border-bottom: 1px solid #969696;
+}
+.nickName{
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-left: 5%;
+}
+.recommend{
+  margin-left: 3px;
+  line-height: 30px;
+  font-size: 1.1rem;
+}
+
+.inputTitleLabel{
+  position: absolute;
+  top: -6px;
+  left: 14%;
+  background-color: #000;
+}
+
+.writeBody form{
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+}
+.writeBody form input[type="text"]{
+  background-color: #000;
+  color: #fff;
+  border: solid 1px #969696; 
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 8px;
+}
+.writeBody form input:first-child{
+  height: 63px;
+  width: 80%;
+}
+.writeBody form .text{
+  height: 300px;
+  width: 80%;
+}
+.inputTextLabel{ 
+  position: absolute;
+  top: 70px;
+  left: 13%;
+  background-color: #000;
+}
+
+.writeBody form input[type="text"]:focus {
+   border: solid 2px #fff; 
+   -webkit-transition: 0.5s; 
+   transition: 0.5s;
+}
+
+.buttons button, .cancelBtn{
+  width: 70px;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 30px;
+  color: #969696;
+  margin-left: 10px;
+}
+.writeBody button:hover,  .cancelBtn:hover{ 
+  color: #fff;
+  transition: all 0.6s ease;
+}
