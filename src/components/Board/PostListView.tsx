@@ -21,7 +21,6 @@ function PostListView() {
     onSnapshot(
       q,
       (snapshot) =>
-        // eslint-disable-next-line implicit-arrow-linebreak
         setContents(
           snapshot.docs.map((doc) => ({ ...doc.data(), id: doc.id })),
         ),

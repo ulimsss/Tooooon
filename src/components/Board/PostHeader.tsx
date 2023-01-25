@@ -12,7 +12,7 @@ function PostHeader() {
     <>
       <div className={styles.headerWrapper}>
         <div className={styles.nickName}>
-          {userId?.uid}
+          {isLoggin ? userId?.uid : 'undefined'}
           님,
         </div>
         <div className={styles.recommend}> 이런 작품은 어때요?</div>

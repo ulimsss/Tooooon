@@ -33,6 +33,23 @@
 
 
 /* delete */
+
+.writeHeader{
+  margin: 110px auto 0px;
+  padding-bottom: 60px;
+  display: flex;
+  border-bottom: 1px solid #969696;
+}
+.nickName{
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-left: 5%;
+}
+.recommend{
+  margin-left: 3px;
+  line-height: 30px;
+  font-size: 1.1rem;
+}
 .buttons{
   display: block;
   float: right;
