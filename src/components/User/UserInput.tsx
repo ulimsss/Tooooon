@@ -8,7 +8,6 @@ interface Props {
   onChange?: React.ChangeEventHandler<HTMLInputElement>;
 }
 
-// eslint-disable-next-line object-curly-newline
 function UserInput({ type, id, onChange }: Props) {
   return <input id={id} type={type} onChange={onChange} />;
 }

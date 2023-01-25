@@ -22,8 +22,8 @@ function CarouselWebtoon() {
     return <div> Loading</div>;
   }
 
-  const carouselNum = getRandomArr(webtoons.length, CAROUSEL_SIZE);
-  // const carouselNum = [818, 795, 830, 839, 810];
+  // const carouselNum = getRandomArr(webtoons.length, CAROUSEL_SIZE);
+  const carouselNum = [818, 795, 830, 839, 810];
   const carouselDataArr = createCarouselItems(webtoons, carouselNum);
 
   return (

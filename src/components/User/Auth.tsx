@@ -1,4 +1,3 @@
-// eslint-disable-next-line object-curly-newline
 import { Dispatch, SetStateAction, useEffect, useState } from 'react';
 import { NavigateFunction, useNavigate } from 'react-router';
 import { doc, getDoc } from 'firebase/firestore';
