@@ -14,6 +14,8 @@ import Logout from './components/User/Logout';
 import { firebaseAuth } from './config';
 import Board from './pages/Board';
 import Post from './components/Board/Post';
+import Write from './components/Board/Write';
+import Editing from './components/Board/Editing';
 
 function App() {
   const setUserLogin = useSetRecoilState<LoginState>(isLogin);
@@ -35,11 +37,11 @@ function App() {
         <Routes>
           <Route path="*" element={<NotFound />} />
           <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/logout" element={<Logout />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/oauth/kakao/callback" element={<Auth />} />
-          <Route path="/home" element={<Home />} />
           <Route path="/genre" element={<Genre />} />
           {/* {GENRE_NAME.map((genre, index) => (
             <Route
@@ -51,6 +53,7 @@ function App() {
           {/* <Route path={"/platform"} element={<Home />} /> */}
           <Route path="/board" element={<Board />} />
           <Route path="/board/post" element={<Post />} />
+          <Route path="/board/write" element={<Write />} />
         </Routes>
       </div>
     </BrowserRouter>

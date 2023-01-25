@@ -17,6 +17,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   ignorePatterns: ['*.css', '*.module.css', 'webtoon.json'],
   rules: {
+    'object-curly-newline': 'off',
     'react/destructuring-assignment': 'off',
     'jsx-a11y/label-has-associated-control': 'off',
     'react/no-array-index-key': 'off',
