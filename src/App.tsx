@@ -42,13 +42,6 @@ function App() {
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/oauth/kakao/callback" element={<Auth />} />
           <Route path="/genre" element={<Genre />} />
-          {/* {GENRE_NAME.map((genre, index) => (
-            <Route
-              path={`/genre/${genreTabs[genre]}`}
-              key={index}
-              element={<GenreTab />}
-            />
-          ))} */}
           {/* <Route path={"/platform"} element={<Home />} /> */}
           <Route path="/board" element={<Board />} />
           <Route path="/board/post" element={<Post />} />
