@@ -18,10 +18,7 @@ function PostList({ postObj, index }: props) {
       >
         <div>{postObj.title}</div>
       </Link>
-      <div className={styles.creator}>
-        Ulimsss
-        {/* {postObj.creatorId} */}
-      </div>
+      <div className={styles.creator}>{postObj.userId}</div>
       <div className={styles.date}>{postObj.createdAt}</div>
     </div>
   );

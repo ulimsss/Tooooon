@@ -2,7 +2,9 @@ import { addDoc, collection, onSnapshot, query } from 'firebase/firestore';
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { Link } from 'react-router-dom';
+import { useRecoilState } from 'recoil';
 import { db, firebaseAuth } from '../../config';
+import { loginInfo, LoginInfo } from '../../model/login';
 import PostHeader from './PostHeader';
 import styles from './Write.module.css';
 
@@ -10,6 +12,7 @@ function Write() {
   const [title, setTitle] = useState('');
   const [post, setPost] = useState('');
   const userId = firebaseAuth.currentUser?.uid;
+  const userInfo = useRecoilState<LoginInfo>(loginInfo);
   const navigation = useNavigate();
 
   const q = query(collection(db, 'posts'));
@@ -28,6 +31,7 @@ function Write() {
         text: post,
         createdAt: new Date().toLocaleString().split(',')[0],
         creatorId: userId,
+        userId: userInfo[0].userId,
       });
       setTitle('');
       setPost('');
@@ -53,7 +57,7 @@ function Write() {
     <div className={styles.writeWrapper}>
       <div className={styles.writeHeader}>
         <div className={styles.nickName}>
-          {userId}
+          {userInfo[0].userId}
           님,
         </div>
         <div className={styles.recommend}> 작품을 추천해주세요. </div>

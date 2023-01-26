@@ -1,4 +1,7 @@
-
+.listWrapper{
+  position: relative;
+  min-height: 370px;
+}
 .postListWrapper{
   display: flex;
   align-items: center;
@@ -13,3 +16,15 @@
   text-align: center;
   font-weight: 700;
 }
+
+.paginationWrapper{
+  position: absolute;
+  left: 40%;
+  bottom: -15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

@@ -4,6 +4,7 @@ import { db } from '../../config';
 import { PostType } from '../../model/post';
 import PostList from './PostList';
 import styles from './PostListView.module.css';
+import Pagination from './Pagination';
 
 // const postInitail = {
 //   id: '',
@@ -12,13 +13,18 @@ import styles from './PostListView.module.css';
 //   creatorId: '',
 //   createdAt: '',
 // };
+const MAX_PAGE = 5;
 
 function PostListView() {
   const [contents, setContents] = useState<any>([]);
+  const [limit, setLimit] = useState(MAX_PAGE);
+  const [page, setPage] = useState(1);
+  const offset = (page - 1) * limit;
+  const totalPage = contents.length;
 
   const getData = async () => {
     const q = query(collection(db, 'posts'), orderBy('createdAt', 'desc'));
-    onSnapshot(
+    const snap = onSnapshot(
       q,
       (snapshot) =>
         setContents(
@@ -33,16 +39,28 @@ function PostListView() {
   }, []);
   return (
     <div className={styles.listWrapper}>
-      {contents?.map((content: PostType, idx: number) => (
-        <div className={styles.postListWrapper}>
-          <div className={styles.index}>{contents.length - idx}</div>
-          <PostList
-            key={content.creatorId}
-            postObj={content}
-            index={contents.length - idx}
-          />
-        </div>
-      ))}
+      {contents
+        ?.slice(offset, offset + limit)
+        .map((content: PostType, idx: number) => (
+          <div className={styles.postListWrapper}>
+            <div className={styles.index}>
+              {contents.length - (offset + idx)}
+            </div>
+            <PostList
+              key={content.creatorId}
+              postObj={content}
+              index={contents.length - idx}
+            />
+          </div>
+        ))}
+      <div className={styles.paginationWrapper}>
+        <Pagination
+          total={totalPage}
+          limit={limit}
+          page={page}
+          setPage={setPage}
+        />
+      </div>
     </div>
   );
 }
