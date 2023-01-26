@@ -53,6 +53,7 @@
 .buttons{
   display: block;
   float: right;
+  margin-bottom: 20px;
 }
 .buttons button{
   font-size: 1rem;
@@ -95,6 +96,7 @@
 
 .editWrapper .buttons{
   float: right;
+  
 }
 .inputTitleLabel{
   position: absolute;

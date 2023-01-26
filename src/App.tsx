@@ -15,6 +15,7 @@ import { firebaseAuth } from './config';
 import Board from './pages/Board';
 import Post from './components/Board/Post';
 import Write from './components/Board/Write';
+import Platfrom from './components/Platform/\bPlatfotm';
 
 function App() {
   const setUserLogin = useSetRecoilState<LoginState>(isLogin);
@@ -42,7 +43,7 @@ function App() {
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/oauth/kakao/callback" element={<Auth />} />
           <Route path="/genre" element={<Genre />} />
-          {/* <Route path={"/platform"} element={<Home />} /> */}
+          <Route path="/platform" element={<Platfrom />} />
           <Route path="/board" element={<Board />} />
           <Route path="/board/post" element={<Post />} />
           <Route path="/board/write" element={<Write />} />
