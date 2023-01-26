@@ -6,6 +6,7 @@ export interface PostType {
   title: string;
   createdAt: number;
   creatorId: string;
+  userId: string;
 }
 
 export interface Editing {
