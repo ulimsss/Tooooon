@@ -21,9 +21,7 @@ function GenreWebtoon() {
     // eslint-disable-next-line function-paren-newline
   );
 
-  console.log(webtoonPlatformList.length);
   const webtoonSize = getRandomArr(webtoonPlatformList.length, 8);
-  console.log(webtoonSize);
   const webtoonCardList: Webtoon[] = createCarouselItems(
     webtoonPlatformList,
     webtoonSize,
@@ -50,14 +48,6 @@ function GenreWebtoon() {
           </div>
         </div>
       ))}
-      {/* <img alt={webtoonCardList[0].name} src={webtoonCardList[0].image} />
-      <img alt={webtoonCardList[1].name} src={webtoonCardList[1].image} />
-      <img alt={webtoonCardList[2].name} src={webtoonCardList[2].image} />
-      <img alt={webtoonCardList[3].name} src={webtoonCardList[3].image} />
-      <img alt={webtoonCardList[4].name} src={webtoonCardList[4].image} />
-      <img alt={webtoonCardList[5].name} src={webtoonCardList[5].image} />
-      <img alt={webtoonCardList[0].name} src={webtoonCardList[6].image} />
-      <img alt={webtoonCardList[0].name} src={webtoonCardList[7].image} /> */}
     </div>
   );
 }

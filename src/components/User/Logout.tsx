@@ -3,11 +3,12 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 import { firebaseAuth } from '../../config';
-import { isLogin, LoginState } from '../../model/login';
+import { isLogin, loginInfo, LoginInfo, LoginState } from '../../model/login';
 
 function Logout() {
   const userLogin = useRecoilState<LoginState>(isLogin);
   const setUserLogin = useSetRecoilState<LoginState>(isLogin);
+  const setUserInfo = useSetRecoilState<LoginInfo>(loginInfo);
   const navigate = useNavigate();
 
   // 버튼 눌렀을 때 로그아웃핸들러
@@ -21,7 +22,7 @@ function Logout() {
     } else {
       console.log('signOut');
       setUserLogin({ isLogin: false });
-      console.log(firebaseAuth);
+      setUserInfo({ userId: 'undefined', password: '' });
       signOut(firebaseAuth);
     }
 

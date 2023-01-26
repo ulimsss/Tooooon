@@ -1,0 +1,21 @@
+.title{
+  margin-top: 100px;
+  font: bold;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.page{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.linkWrapper{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.link{
+  border-top: none;
+}
