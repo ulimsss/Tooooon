@@ -1,20 +1,10 @@
 import { useLocation, useNavigate } from 'react-router';
 import { useState } from 'react';
-import {
-  collection,
-  deleteDoc,
-  doc,
-  onSnapshot,
-  query,
-  updateDoc,
-} from 'firebase/firestore';
+import { deleteDoc, doc, updateDoc } from 'firebase/firestore';
 import { db, firebaseAuth } from '../../config';
 import PostHeader from './PostHeader';
 import styles from './Post.module.css';
-import PostList, { props } from './PostList';
-import Edit from './Edit';
-import { PostType } from '../../model/post';
-import Editing from './Editing';
+import PostList from './PostList';
 
 function Post() {
   const location = useLocation().state;
@@ -28,7 +18,7 @@ function Post() {
   const isOwner = location.postObj.creatorId === userId?.uid;
   const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    // await db.doc(`posts/${postObj.id}`).update({ text: newPost });
+    // await db.doc(`posts/${location.postObj.id}`).update({ text: newPost });
     const updateRef = doc(db, 'posts', location.postObj.id);
     await updateDoc(updateRef, { title: newTitle, text: newPost });
     setEditing(false);
@@ -96,9 +86,14 @@ function Post() {
           <>
             <div className={styles.contentWrapper}>
               <div className={styles.index}>{location.index}</div>
-              <PostList postObj={location.postObj} />
+              <div className={styles.postList}>
+                <div className={styles.title}>{newTitle}</div>
+
+                <div className={styles.creator}>{location.postObj.userId}</div>
+                <div className={styles.date}>{location.postObj.createdAt}</div>
+              </div>
             </div>
-            <div className={styles.text}>{location.postObj.text}</div>
+            <div className={styles.text}>{newPost}</div>
             {isOwner && (
               <div className={styles.buttons}>
                 <button type="button" onClick={onDeleteClick}>

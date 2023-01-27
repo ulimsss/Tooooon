@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import { useRecoilState } from 'recoil';
-import { firebaseAuth } from '../../config';
 import { isLogin, loginInfo, LoginInfo, LoginState } from '../../model/login';
 import styles from './PostHeader.module.css';
 

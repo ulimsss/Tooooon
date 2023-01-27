@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom';
 import { useRecoilState } from 'recoil';
 import { db, firebaseAuth } from '../../config';
 import { loginInfo, LoginInfo } from '../../model/login';
-import PostHeader from './PostHeader';
 import styles from './Write.module.css';
 
 function Write() {
@@ -70,7 +69,7 @@ function Write() {
             onChange={onChangeTitle}
             type="text"
             placeholder="제목을 입력하세요"
-            maxLength={20}
+            maxLength={40}
           />
           <label className={styles.inputTitleLabel} htmlFor="title">
             제목

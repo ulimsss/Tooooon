@@ -16,7 +16,6 @@ function Logout() {
   // 탭 눌렀을 때 페이지 전체가 렌더ㅣㄹㅇ
 
   const logoutFirebase = (): void => {
-    console.log(userLogin[0].isLogin);
     if (!userLogin) {
       console.log('login Error인디?');
     } else {
@@ -25,7 +24,6 @@ function Logout() {
       setUserInfo({ userId: 'undefined', password: '' });
       signOut(firebaseAuth);
     }
-
     navigate('/');
   };
   useEffect(() => {

@@ -1,31 +1,6 @@
 import cx from 'clsx';
 import styles from './Pagination.module.css';
 
-// interface OnClickProps {
-//   onClick: (page: number) => void;
-// }
-
-// interface PageButtonProps extends OnClickProps {
-//   number: number;
-
-//   selected: boolean;
-// }
-// function PageButton({ number, onClick, selected }: PageButtonProps) {
-//   return (
-//     <button
-//       type="button"
-//       className={cx(styles.button, { [styles.selected]: selected })}
-//       onClick={() => onClick(number)}
-//     >
-//       {number}
-//     </button>
-//   );
-// }
-
-// interface Props extends OnClickProps {
-//   currentPage: number;
-//   maxPage: number;
-// }
 interface Props {
   total: number;
   limit: number;
@@ -35,8 +10,6 @@ interface Props {
 
 export default function Paginaion({ total, limit, page, setPage }: Props) {
   const numPages = Math.ceil(total / limit);
-  console.log('numPaage:', numPages);
-  console.log('total :', total);
   return (
     <div>
       <button

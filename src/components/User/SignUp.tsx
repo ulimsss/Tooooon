@@ -79,7 +79,6 @@ function SignUp() {
     async (event: React.FormEvent<HTMLFormElement>) => {
       event.preventDefault();
       try {
-        console.log('click');
         await setDoc(doc(db, 'users', state.data.userId), {
           nickName,
           password,

@@ -33,6 +33,13 @@ function PostListView() {
       // eslint-disable-next-line function-paren-newline
     );
   };
+  const q = query(collection(db, 'posts'));
+  const unsubscribe = onSnapshot(q, (querySnapshot) => {
+    const posts = [];
+    querySnapshot.forEach((docu) => {
+      posts.push(docu.data().name);
+    });
+  });
 
   useEffect(() => {
     getData();

@@ -2,13 +2,11 @@
 import { useRecoilValueLoadable } from 'recoil';
 import { Carousel } from 'react-responsive-carousel';
 import styles from './CarouselWebtoon.module.css';
-// requires a loader
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-
 import { Webtoon, webtoonsList } from '../../model/webtoon';
 import LogoBadge from './LogoBadge';
-import { CAROUSEL_SIZE } from '../../constants/carousel';
 import { createCarouselItems, getRandomArr } from '../../helpers/help';
+import { CAROUSEL_SIZE } from '../../constants/carousel';
 
 function CarouselWebtoon() {
   const webtoonsLoadable = useRecoilValueLoadable<Webtoon[]>(webtoonsList);
@@ -22,9 +20,8 @@ function CarouselWebtoon() {
     return <div> Loading</div>;
   }
 
-  // 818, 795, 830, 839, 810
   const carouselNum = getRandomArr(webtoons.length, CAROUSEL_SIZE);
-  // const carouselNum = [795, 380, 810, 479, 560];
+  // const carouselNum = [795, 380, 810, 222, 560];
   const carouselDataArr = createCarouselItems(webtoons, carouselNum);
 
   return (

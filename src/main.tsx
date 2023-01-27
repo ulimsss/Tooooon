@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM, { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { RecoilRoot } from 'recoil';
 import App from './App';

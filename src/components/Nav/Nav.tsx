@@ -5,12 +5,9 @@ import styles from './Nav.module.css';
 import NavTab from './NavTab';
 import { isLogin, LoginState } from '../../model/login';
 
-// const tabMenus: string[] = ['홈', '장르', '게시판'];
 const tabMenus: string[] = ['홈', '장르', '플랫폼', '게시판'];
 
 function Nav() {
-  // isLogin 상태 콘솔로 찍으면서 확인해보기
-  // login
   const userLogin = useRecoilState<LoginState>(isLogin);
   return (
     <div className={styles.navWrapper}>

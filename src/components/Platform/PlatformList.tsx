@@ -17,7 +17,7 @@ function PlatformList({ platformName }: { platformName: string }) {
     // eslint-disable-next-line function-paren-newline
   );
 
-  const webtoonSize = getRandomArr(webtoonPlatformList.length, 8);
+  const webtoonSize = getRandomArr(webtoonPlatformList.length, 20);
   const webtoonCardList: Webtoon[] = createCarouselItems(
     webtoonPlatformList,
     webtoonSize,

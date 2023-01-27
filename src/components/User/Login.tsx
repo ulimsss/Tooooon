@@ -1,16 +1,8 @@
-import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { useCallback } from 'react';
-import { doc, getDoc } from 'firebase/firestore';
-import { signInWithCustomToken } from 'firebase/auth';
-import { useSetRecoilState } from 'recoil';
 import styles from './Login.module.css';
 import { KAKAO_AUTH_URL } from '../../constants/login';
 import UserInput from './UserInput';
-import { db, firebaseAuth } from '../../config';
-import { isLogin, LoginState } from '../../model/login';
 
 function Login() {
-  // Auth에서 data recoil로 넘겨 받기
   // const auth = useRecoilState<firebaseUser>(firebaseUser);
 
   // const setUserLogin = useSetRecoilState<LoginState>(isLogin);
@@ -20,7 +12,6 @@ function Login() {
   //   try {
   //     console.log('click');
   //     const user = await getDoc(doc(db, 'users', auth.userId));
-
   //     await signInWithCustomToken(firebaseAuth, auth.firebase_token);
   //     setUserLogin({ isLogin: true });
   //     navigate('/');
