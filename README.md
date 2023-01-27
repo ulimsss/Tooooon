@@ -1,6 +1,6 @@
 
 # 웹툰 추천 서비스 Tooooon
-React Project
+**React Project**
 
 <p align="center">
 </p>
@@ -13,10 +13,10 @@ React Project
 </p>
 
 
+
 새로운 웹툰을 추천해드립니다 !
 
 ---
-
 
 </br>
 </br>
