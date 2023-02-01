@@ -16,6 +16,7 @@ import Board from './pages/Board';
 import Post from './components/Board/Post';
 import Write from './components/Board/Write';
 import Platfrom from './components/Platform/Platfotm';
+import Search from './pages/Search';
 
 function App() {
   const setUserLogin = useSetRecoilState<LoginState>(isLogin);
@@ -44,6 +45,7 @@ function App() {
           <Route path="/oauth/kakao/callback" element={<Auth />} />
           <Route path="/genre" element={<Genre />} />
           <Route path="/platform" element={<Platfrom />} />
+          <Route path="/search" element={<Search />} />
           <Route path="/board" element={<Board />} />
           <Route path="/board/post" element={<Post />} />
           <Route path="/board/write" element={<Write />} />

@@ -1,0 +1,17 @@
+.searchWrapper{
+  padding: 20px 0;
+}
+
+
+.searchBtn{
+  color: #fff;
+  font-size: 0.8rem;
+  
+}
+
+.searchedList button{
+  /* width: 100px; */
+  /* height: 100px; */
+  color: #fff;
+  z-index: 3;
+}

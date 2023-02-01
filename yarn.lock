@@ -2143,6 +2143,11 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"hooks@^0.3.2":
+  "integrity" "sha512-TqeFzUf12rSzcbm5lUls81jimUC8TmXZ4ANPxxeeMou09hrjBcHYhAQ0WgyN5YqNCXOzz7L6xVNl/+ctFuSeOw=="
+  "resolved" "https://registry.npmjs.org/hooks/-/hooks-0.3.2.tgz"
+  "version" "0.3.2"
+
 "http-parser-js@>=0.5.1":
   "integrity" "sha512-SGeBX54F94Wgu5RH3X5jsDtf4eHyRogWX1XGT3b4HuW3tQPM4AaBzoUji/4AAJNXCEOWZ5O0DgZmJw1947gD5Q=="
   "resolved" "https://registry.npmjs.org/http-parser-js/-/http-parser-js-0.5.8.tgz"
@@ -2883,7 +2888,7 @@
   dependencies:
     "@remix-run/router" "1.2.1"
 
-"react@^18.2.0", "react@>=16.13.1", "react@>=16.8":
+"react@^18.2.0", "react@>=16.13.1", "react@>=16.8", "react@>=16.8.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -3257,6 +3262,11 @@
   "version" "4.4.1"
   dependencies:
     "punycode" "^2.1.0"
+
+"use-debounce@^9.0.3":
+  "integrity" "sha512-FhtlbDtDXILJV7Lix5OZj5yX/fW1tzq+VrvK1fnT2bUrPOGruU9Rw8NCEn+UI9wopfERBEZAOQ8lfeCJPllgnw=="
+  "resolved" "https://registry.npmjs.org/use-debounce/-/use-debounce-9.0.3.tgz"
+  "version" "9.0.3"
 
 "vite@^4.0.0", "vite@^4.0.4":
   "integrity" "sha512-xevPU7M8FU0i/80DMR+YhgrzR5KS2ORy1B4xcX/cXLsvnUWvfHuqMmVU6N0YiJ4JWGRJJsLCgjEzKjG9/GKoSw=="

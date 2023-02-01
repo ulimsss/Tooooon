@@ -16,6 +16,9 @@ function PlatformList({ platformName }: { platformName: string }) {
     (webtoon) => webtoon.platform.includes(platformName),
     // eslint-disable-next-line function-paren-newline
   );
+  if (platformName === '카카오') {
+    console.log(webtoonPlatformList);
+  }
 
   const webtoonSize = getRandomArr(webtoonPlatformList.length, 20);
   const webtoonCardList: Webtoon[] = createCarouselItems(
