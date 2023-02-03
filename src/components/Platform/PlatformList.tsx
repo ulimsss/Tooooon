@@ -2,8 +2,7 @@ import { useRecoilValueLoadable } from 'recoil';
 import styles from './PlatformList.module.css';
 import { createCarouselItems, getRandomArr } from '../../helpers/help';
 import { Webtoon, webtoonsList } from '../../model/webtoon';
-
-const dividedWebtoon = (webtoons: Webtoon[], size: number) => {};
+import CarouselTesT from './PlatformCarousel';
 
 function PlatformList({ platformName }: { platformName: string }) {
   const webtoonsLoadable = useRecoilValueLoadable<Webtoon[]>(webtoonsList);
@@ -25,28 +24,7 @@ function PlatformList({ platformName }: { platformName: string }) {
     webtoonSize,
   );
 
-  return (
-    <div className={styles.listWrapper}>
-      {webtoonCardList.map((webtoonCard) => (
-        <div className={styles.cardListWrapper}>
-          <button
-            type="button"
-            onClick={() => {
-              window.open(webtoonCard.URL, '_blank');
-            }}
-          >
-            <div className={styles.description}>
-              <div className={styles.cardName}>{webtoonCard.name}</div>
-              <div className={styles.cardToonist}>{webtoonCard.webtoonist}</div>
-              <i className="bx bx-link-external" />
-            </div>
-          </button>
-          <img alt={webtoonCard.name} src={webtoonCard.image} />
-          {/* <div className={styles.cardDescription} /> */}
-        </div>
-      ))}
-    </div>
-  );
+  return <CarouselTesT webtoons={webtoonCardList} />;
 }
 
 export default PlatformList;

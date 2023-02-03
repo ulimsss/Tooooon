@@ -1,64 +1,58 @@
-import { useEffect, useRef, useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import { Webtoon } from '../../model/webtoon';
 import styles from './PlatformCarousel.module.css';
 
-function CarouselTesT() {
-  const containerCarousel = useRef();
-  const [nowX, setNowX] = useState(0);
-  useEffect(() => {
-    containerCarousel.current.style.transform = `translateX(${nowX}vw)`;
-  }, [nowX]);
-  // useState 말고 useEffect를 이용해야할듯.
-  const clickLeftButton = () => {
-    // setNowX(nowX + 20);
-    setNowX((prop) => prop + 20);
-    console.log(`it's work ${nowX}`);
-  };
-  const clickRightButton = () => {
-    setNowX(nowX - 20);
-    console.log(`it's work ${nowX}`);
-  };
+interface NextArrowProps {
+  // eslint-disable-next-line react/require-default-props
+  onClick?: React.MouseEventHandler<HTMLDivElement>;
+}
+function NextArrow({ onClick }: NextArrowProps) {
   return (
-    <div className="body" style={{ overflow: 'hidden' }}>
-      <div>{nowX}</div>
-      <label className={styles.left} onClick={clickLeftButton}>
-        left
-      </label>
-      <label className={styles.right} onClick={clickRightButton}>
-        right
-      </label>
-      <div className={styles.containerCarousel} ref={containerCarousel}>
-        <div className={styles.inner}>
-          <img src="img/img1.jpg" alt="test1" />
-        </div>
-        <div className="inner">
-          <img src="img/img2.jpg" alt="test2" />
-        </div>
-        <div className="inner">
-          <img src="img/img1.jpg" alt="test3" />
-        </div>
-        <div className="inner">
-          <img src="img/img2.jpg" alt="test4" />
-        </div>
-        <div className="inner">
-          <img src="img/img1.jpg" alt="test5" />
-        </div>
-        <div className="inner">
-          <img src="img/img2.jpg" alt="test6" />
-        </div>
-        <div className="inner">
-          <img src="img/img1.jpg" alt="test7" />
-        </div>
-        <div className="inner">
-          <img src="img/img2.jpg" alt="test8" />
-        </div>
-        <div className="inner">
-          <img src="img/img1.jpg" alt="test9" />
-        </div>
-        <div className="inner">
-          <img src="img/img2.jpg" alt="test10" />
-        </div>
-      </div>
+    // eslint-disable-next-line max-len
+    // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions
+    <div className={styles.nextArrow} onClick={onClick}>
+      누르면 넘어감
     </div>
+  );
+}
+
+function CarouselTesT({ webtoons }: { webtoons: Webtoon[] }) {
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 400,
+    slidesToShow: 4,
+    slidesToScroll: 5,
+    nextArrow: <NextArrow />,
+  };
+  // 사용할 Carousel의 기본 세팅을 해준다. props로 받아 와야 하기 때문에 객체에 넣어서 받아온다.
+  // 더 많은 설정이 있지만, 그것은 직접 코드를 뜯어 보면 쉽게 알 수 있다.
+  // 위의 설정은 홈페이지에 나와있는 기본 설정을 한번에 보여줄 갯수만 1개로 바꾼 것이다.
+  return (
+    <section className="page-carousel">
+      <Slider {...settings}>
+        {webtoons.map((webtoon) => (
+          <div className={styles.cardListWrapper}>
+            <button
+              type="button"
+              onClick={() => {
+                window.open(webtoon.URL, '_blank');
+              }}
+            >
+              <div className={styles.description}>
+                <div className={styles.cardName}>{webtoon.name}</div>
+                <div className={styles.cardToonist}>{webtoon.webtoonist}</div>
+                <i className="bx bx-link-external" />
+              </div>
+            </button>
+            <img alt={webtoon.name} src={webtoon.image} />
+            {/* <div clzassName={styles.cardDescription} /> */}
+          </div>
+        ))}
+      </Slider>
+    </section>
   );
 }
 

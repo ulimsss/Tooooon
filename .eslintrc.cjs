@@ -17,6 +17,7 @@ module.exports = {
   plugins: ['react', '@typescript-eslint', 'prettier'],
   ignorePatterns: ['*.css', '*.module.css', 'webtoon.json'],
   rules: {
+    'react/jsx-props-no-spreading': 'off',
     'implicit-arrow-linebreak': 'off',
     'object-curly-newline': 'off',
     'react/destructuring-assignment': 'off',
