@@ -5,7 +5,7 @@ import styles from './Nav.module.css';
 import NavTab from './NavTab';
 import { isLogin, LoginState } from '../../model/login';
 
-const tabMenus: string[] = ['홈', '장르', '플랫폼', '게시판', '검색'];
+const tabMenus: string[] = ['홈', '장르', '플랫폼', '게시판'];
 
 function Nav() {
   const userLogin = useRecoilState<LoginState>(isLogin);

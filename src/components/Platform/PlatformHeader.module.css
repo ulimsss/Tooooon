@@ -1,16 +1,13 @@
 .platformHeader{
   position: relative;
   width: calc(100vw - 20%);
-  margin: 70px auto 30px;
-  padding: 0 10px 5px;
+  margin: 90px auto 30px;
   display: flex;
-  align-content: center;
-  justify-content: space-around;
-  border-bottom: 1px solid #969696;
+  align-content: left;
+  justify-content: flex-start;
 }
 .platforms{
   display: flex;
-
 }
 .logoImg{
   max-width: 30px;
@@ -20,7 +17,7 @@
 .logoPlatform{
   color: rgba(255, 255, 255, 0.83);
   padding-left: 10px;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   line-height: 30px;
-  font-weight: 400;
+  font-weight: 800;
 }

@@ -3,6 +3,8 @@ import styles from './PlatformList.module.css';
 import { createCarouselItems, getRandomArr } from '../../helpers/help';
 import { Webtoon, webtoonsList } from '../../model/webtoon';
 
+const dividedWebtoon = (webtoons: Webtoon[], size: number) => {};
+
 function PlatformList({ platformName }: { platformName: string }) {
   const webtoonsLoadable = useRecoilValueLoadable<Webtoon[]>(webtoonsList);
   if (webtoonsLoadable.state === 'loading') {
@@ -16,15 +18,13 @@ function PlatformList({ platformName }: { platformName: string }) {
     (webtoon) => webtoon.platform.includes(platformName),
     // eslint-disable-next-line function-paren-newline
   );
-  if (platformName === '카카오') {
-    console.log(webtoonPlatformList);
-  }
 
   const webtoonSize = getRandomArr(webtoonPlatformList.length, 20);
   const webtoonCardList: Webtoon[] = createCarouselItems(
     webtoonPlatformList,
     webtoonSize,
   );
+
   return (
     <div className={styles.listWrapper}>
       {webtoonCardList.map((webtoonCard) => (
@@ -35,13 +35,13 @@ function PlatformList({ platformName }: { platformName: string }) {
               window.open(webtoonCard.URL, '_blank');
             }}
           >
-            <img alt={webtoonCard.name} src={webtoonCard.image} />
             <div className={styles.description}>
               <div className={styles.cardName}>{webtoonCard.name}</div>
               <div className={styles.cardToonist}>{webtoonCard.webtoonist}</div>
               <i className="bx bx-link-external" />
             </div>
           </button>
+          <img alt={webtoonCard.name} src={webtoonCard.image} />
           {/* <div className={styles.cardDescription} /> */}
         </div>
       ))}

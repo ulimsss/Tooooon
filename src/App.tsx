@@ -15,7 +15,7 @@ import { firebaseAuth } from './config';
 import Board from './pages/Board';
 import Post from './components/Board/Post';
 import Write from './components/Board/Write';
-import Platfrom from './components/Platform/Platfotm';
+import Platfrom from './pages/Platform';
 import Search from './pages/Search';
 
 function App() {
