@@ -6,7 +6,6 @@ import styles from './styles/Platform.module.css';
 function Platform() {
   return (
     <>
-      <h1 className={styles.tabName}>플랫폼별</h1>
       {PLATFORMARR.map((platform) => (
         <>
           <PlatformHeader platform={platform} />
