@@ -20,7 +20,8 @@ function CarouselWebtoon() {
     return <div> Loading</div>;
   }
 
-  const carouselNum = getRandomArr(webtoons.length, CAROUSEL_SIZE);
+  const carouselNum = getRandomArr(856, CAROUSEL_SIZE);
+  // const carouselNum = getRandomArr(webtoons.length, CAROUSEL_SIZE);
   // 해상도 그나마 안깨지는
   // const carouselNum = [795, 380, 810, 222, 560];
   const carouselDataArr = createCarouselItems(webtoons, carouselNum);
