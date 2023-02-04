@@ -1,41 +1,16 @@
-.nextArrow {
-  right: -25px;
-  font-size: 20px;
-  line-height: 0;
-  position: absolute;
-  top: 50%;
-  display: block;
-  width: 20px;
-  height: 20px;
-  padding: 0;
-  transform: translate(0, -50%);
-  cursor: pointer;
-  color: transparent;
-  border: none;
-  outline: none;
-  background: transparent;
-  transition: 200ms ease-in-out;
-  color: #fff;
-
-}
-
-.listWrapper{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
- 
-}
-.listWrapper button{
-  color: #fff;
+section div{
+  width: calc( 100vw - 10% );
+  margin: 0 auto 10px;
 }
 .cardListWrapper{
   position: relative;
-  margin:8px;
-  width: 270px;
-  height: 300px;
+  margin: 0 10px;
+  width:calc( 22%)  !important;
+  /* margin:8px; */
+  height: 400px;
   overflow: hidden;
+  border-radius: 30px;
+
 }
 .cardListWrapper button{
   display: block;
@@ -46,9 +21,8 @@
   height:100%;
   z-index: 20;
 }
-
 .cardListWrapper img{
-  object-fit:fill;
+  object-fit:cover !important;
   width: 100%;
   height: 100%;
   background-position: 50% 50%;
@@ -74,17 +48,14 @@
   font-size: 0.8rem;
   margin-bottom: 3px;
 }
-
-
 .description{
   opacity: 0;
   position: absolute;
   width: 80%;
   top: 30%;
   left: 10%;
-  transition: all 0.6s ease;
+  transition: all 0.3s ease;
   text-align: center;
-
 }
 .cardListWrapper button:hover .description{
   opacity: 1;

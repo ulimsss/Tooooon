@@ -2,7 +2,7 @@ import { useRecoilValueLoadable } from 'recoil';
 import styles from './PlatformList.module.css';
 import { createCarouselItems, getRandomArr } from '../../helpers/help';
 import { Webtoon, webtoonsList } from '../../model/webtoon';
-import CarouselTesT from './PlatformCarousel';
+import PlatformCarousel from './PlatformCarousel';
 
 function PlatformList({ platformName }: { platformName: string }) {
   const webtoonsLoadable = useRecoilValueLoadable<Webtoon[]>(webtoonsList);
@@ -24,7 +24,11 @@ function PlatformList({ platformName }: { platformName: string }) {
     webtoonSize,
   );
 
-  return <CarouselTesT webtoons={webtoonCardList} />;
+  return (
+    <div className={styles.listWrapper}>
+      <PlatformCarousel webtoons={webtoonCardList} />
+    </div>
+  );
 }
 
 export default PlatformList;

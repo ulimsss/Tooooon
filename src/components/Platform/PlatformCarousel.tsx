@@ -3,28 +3,16 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Webtoon } from '../../model/webtoon';
 import styles from './PlatformCarousel.module.css';
+import { NextArrow, PrevArrow } from './Arrow';
 
-interface NextArrowProps {
-  // eslint-disable-next-line react/require-default-props
-  onClick?: React.MouseEventHandler<HTMLDivElement>;
-}
-function NextArrow({ onClick }: NextArrowProps) {
-  return (
-    // eslint-disable-next-line max-len
-    // eslint-disable-next-line jsx-a11y/click-events-have-key-events, jsx-a11y/no-static-element-interactions
-    <div className={styles.nextArrow} onClick={onClick}>
-      누르면 넘어감
-    </div>
-  );
-}
-
-function CarouselTesT({ webtoons }: { webtoons: Webtoon[] }) {
+function PlatformCarousel({ webtoons }: { webtoons: Webtoon[] }) {
   const settings = {
     dots: false,
     infinite: true,
     speed: 400,
     slidesToShow: 4,
     slidesToScroll: 5,
+    prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
   };
   // 사용할 Carousel의 기본 세팅을 해준다. props로 받아 와야 하기 때문에 객체에 넣어서 받아온다.
@@ -41,11 +29,11 @@ function CarouselTesT({ webtoons }: { webtoons: Webtoon[] }) {
                 window.open(webtoon.URL, '_blank');
               }}
             >
-              <div className={styles.description}>
-                <div className={styles.cardName}>{webtoon.name}</div>
-                <div className={styles.cardToonist}>{webtoon.webtoonist}</div>
+              <span className={styles.description}>
+                <p className={styles.cardName}>{webtoon.name}</p>
+                <p className={styles.cardToonist}>{webtoon.webtoonist}</p>
                 <i className="bx bx-link-external" />
-              </div>
+              </span>
             </button>
             <img alt={webtoon.name} src={webtoon.image} />
             {/* <div clzassName={styles.cardDescription} /> */}
@@ -56,4 +44,4 @@ function CarouselTesT({ webtoons }: { webtoons: Webtoon[] }) {
   );
 }
 
-export default CarouselTesT;
+export default PlatformCarousel;

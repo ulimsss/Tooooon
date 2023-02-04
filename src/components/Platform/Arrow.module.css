@@ -1,0 +1,24 @@
+.arrow{
+  position: absolute;
+  display: block;
+  cursor: pointer;
+  top: 50%;
+  background: transparent;
+  width: 30px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  text-align: center;
+  padding: 0;
+  transform: translate(0, -50%);
+  background: rgba(0,0,0,0.3);
+  transition: 200ms ease-in-out;
+  color: #fff;
+  z-index: 23;
+}
+.left{
+  left:0.5%;
+}
+.right{
+  right: -0.9%;
+}

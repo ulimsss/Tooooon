@@ -1,7 +1,7 @@
 .platformHeader{
   position: relative;
-  width: calc(100vw - 20%);
-  margin: 90px auto 30px;
+  width: calc(100vw - 15%);
+  margin: 40px auto 20px;
   display: flex;
   align-content: left;
   justify-content: flex-start;
