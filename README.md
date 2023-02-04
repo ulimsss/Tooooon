@@ -2,6 +2,8 @@
 # 웹툰 추천 서비스 Tooooon
 **React Project**
 
+[Tooooon 보러가기](https://tooooon.vercel.app/)
+
 <p align="center">
 </p>
 <p align="center">
@@ -31,7 +33,8 @@
 
 |                   홈                |                   장르별                   |                         플랫폼별                          |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  <img width="1339" alt="홈" src="https://user-images.githubusercontent.com/70708829/215030256-2190edee-ad34-4a0f-8d26-3777907aaad9.png"> | <img width="1339" alt="장르별" src="https://user-images.githubusercontent.com/70708829/215030382-4b249820-9734-4e0c-bce8-8cf136549760.png"> | <img width="1341" alt="플랫폼별" src="https://user-images.githubusercontent.com/70708829/215030459-7c7cbfe0-9de4-4bcf-853f-7754a9650e8e.png"> |
+|  <img width="1339" alt="홈" src="https://user-images.githubusercontent.com/70708829/215030256-2190edee-ad34-4a0f-8d26-3777907aaad9.png"> | <img width="1339" alt="장르별" src="https://user-images.githubusercontent.com/70708829/215030382-4b249820-9734-4e0c-bce8-8cf136549760.png"> | <img width="1383" alt="플랫폼별" src="https://user-images.githubusercontent.com/70708829/216779624-e8843672-53b9-42d4-8325-9792133bb857.png">
+|
 
 |                로그인 (카카오 소셜 로그인)                 |                     회원가입                     |   
 | :----------------------------------------------------------: | :----------------------------------------------------------: | 
