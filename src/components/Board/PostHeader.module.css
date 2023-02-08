@@ -7,7 +7,7 @@
 .nickName{
   font-weight: 800;
   font-size: 1.4rem;
-  margin-left: 5%;
+  margin-left: 20px;
 }
 .recommend{
   margin-left: 3px;
@@ -46,19 +46,19 @@
 
 }
 .index{
-  margin-left: 15px;
+  margin-left: 10px;
   width: 60px;
 }
 
 .title{
   margin-left: 3%;
-  width: 75px;
+  width: 60px;
 }
 .creator{
   margin-left: 69%;
-  width: 55px;
+  width: 60px;
 }
 .date{
   margin-left: 4%;
-  width: 55px;
+  width: 60px;
 }

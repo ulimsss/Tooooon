@@ -2,7 +2,7 @@ import { Webtoon } from '../model/webtoon';
 
 const MAX_ID_SIZE = 6;
 const MAX_PASSWORD_SIZE = 8;
-const NICKNAME_REGAX = /^[a-z0-9]+$/;
+const NICKNAME_REGAX = /[a-z0-9]+@[a-z]+.[a-z]{2,3}/;
 const passwordRegex = /^(?=.*[a-zA-Z])(?=.*[!@#$%^*+=-])(?=.*[0-9])$/;
 
 const sameNum = (arr: number[], n: number) => arr.find((e) => e === n);

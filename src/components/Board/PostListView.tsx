@@ -1,6 +1,6 @@
 import { collection, onSnapshot, orderBy, query } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
-import { db } from '../../config';
+import { db, firebaseAuth } from '../../config';
 import { PostType } from '../../model/post';
 import PostList from './PostList';
 import styles from './PostListView.module.css';
@@ -21,6 +21,8 @@ function PostListView() {
   const [page, setPage] = useState(1);
   const offset = (page - 1) * limit;
   const totalPage = contents.length;
+
+  const userId = firebaseAuth.currentUser?.email?.split('@')[0];
 
   const getData = async () => {
     const q = query(collection(db, 'posts'), orderBy('createdAt', 'desc'));

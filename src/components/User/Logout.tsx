@@ -3,9 +3,12 @@ import { useEffect } from 'react';
 import { useNavigate } from 'react-router';
 import { useRecoilState, useSetRecoilState } from 'recoil';
 import { firebaseAuth } from '../../config';
+import useOpenModal from '../../hooks/useOpenModal';
 import { isLogin, loginInfo, LoginInfo, LoginState } from '../../model/login';
+import Modal from '../Modal/Modal';
 
-function Logout() {
+function Logout(): JSX.Element {
+  const { isOpenModal, clickModal, closeModal } = useOpenModal();
   const userLogin = useRecoilState<LoginState>(isLogin);
   const setUserLogin = useSetRecoilState<LoginState>(isLogin);
   const setUserInfo = useSetRecoilState<LoginInfo>(loginInfo);
@@ -30,7 +33,14 @@ function Logout() {
     logoutFirebase();
   }, []);
 
-  return null;
+  return (
+    // eslint-disable-next-line react/jsx-no-useless-fragment
+    <>
+      {isOpenModal && (
+        <Modal closeModal={closeModal} title="정말로 로그아웃 하시겠습니까?" />
+      )}
+    </>
+  );
 }
 
 export default Logout;

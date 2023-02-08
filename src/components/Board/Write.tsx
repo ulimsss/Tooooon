@@ -11,6 +11,7 @@ function Write() {
   const [title, setTitle] = useState('');
   const [post, setPost] = useState('');
   const userId = firebaseAuth.currentUser?.uid;
+  const userNickName = firebaseAuth.currentUser?.email?.split('@')[0];
   const userInfo = useRecoilState<LoginInfo>(loginInfo);
   const navigation = useNavigate();
 
@@ -30,7 +31,8 @@ function Write() {
         text: post,
         createdAt: new Date().toLocaleString().split(',')[0],
         creatorId: userId,
-        userId: userInfo[0].userId,
+        userId: userNickName,
+        // userId: userInfo[0].userId,
       });
       setTitle('');
       setPost('');
@@ -56,7 +58,7 @@ function Write() {
     <div className={styles.writeWrapper}>
       <div className={styles.writeHeader}>
         <div className={styles.nickName}>
-          {userInfo[0].userId}
+          {userNickName}
           님,
         </div>
         <div className={styles.recommend}> 작품을 추천해주세요. </div>
