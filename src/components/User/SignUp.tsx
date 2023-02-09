@@ -102,7 +102,7 @@ function SignUp() {
       <div className={styles.signUpInputWrapper}>
         <form onSubmit={onSubmit}>
           <label htmlFor="userId">Create Your Email</label>
-          <UserInput id="userId" type="Email" onChange={onChangeName} />
+          <UserInput id="userId" type="email" onChange={onChangeName} />
           <div
             className={clsx(
               `styles.${isPassword ? 'success' : 'error'}`,

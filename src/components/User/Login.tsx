@@ -38,7 +38,7 @@ function Login() {
       <div className={styles.loginInputWrapper}>
         <form onSubmit={onSubmit}>
           <label htmlFor="userId">Email</label>
-          <UserInput type="text" id="userId" onChange={onChangeName} />
+          <UserInput type="email" id="userId" onChange={onChangeName} />
           <label htmlFor="password">Password</label>
           <UserInput type="password" id="password" onChange={onChangePW} />
           <button type="submit">로그인</button>
