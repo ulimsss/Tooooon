@@ -10,9 +10,9 @@
 
 .bgImage{
   height: calc(100vh - 58px);
-  /* width: 100%; */
-  object-fit: fill;
-
+  object-fit: contain;
+  width: 100%;
+  /* height: 500px; */
   backface-visibility: hidden;
   image-rendering: crisp-edges;
   image-rendering: -moz-crisp-edges; /* Firefox */
