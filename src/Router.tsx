@@ -10,6 +10,7 @@ import Board from './pages/Board';
 import Post from './components/Board/Post';
 import Write from './components/Board/Write';
 import Platfrom from './pages/Platform';
+import Search from './pages/Search';
 
 function Router() {
   return (
@@ -26,6 +27,7 @@ function Router() {
       <Route path="/board" element={<Board />} />
       <Route path="/board/post" element={<Post />} />
       <Route path="/board/write" element={<Write />} />
+      <Route path="/search" element={<Search />} />
     </Routes>
   );
 }

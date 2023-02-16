@@ -1,0 +1,10 @@
+
+
+.cursor{
+  cursor: pointer;
+}
+
+.cursor:hover{
+  color: #fff;
+  transition: all 0.6s;
+}

@@ -4,6 +4,7 @@ import { useRecoilState } from 'recoil';
 import styles from './Nav.module.css';
 import NavTab from './NavTab';
 import { isLogin, LoginState } from '../../model/login';
+import Search from '../Search/SearchIcon';
 
 const tabMenus: string[] = ['홈', '장르', '플랫폼', '게시판'];
 
@@ -19,11 +20,18 @@ function Nav() {
           ? tabMenus.map((tab, index) => <NavTab tab={tab} key={index} />)
           : ''}
       </div>
-      <div className={cx(styles.loginTab, styles.cursor)}>
+      <div className={cx(styles.loginTab)}>
+        <Link to="/search" className={cx(styles.searchWrapper, styles.cursor)}>
+          <Search />
+        </Link>
         {userLogin[0].isLogin ? (
-          <Link to="/logout">로그아웃</Link>
+          <Link to="/logout" className={styles.cursor}>
+            로그아웃
+          </Link>
         ) : (
-          <Link to="/login">로그인/회원가입</Link>
+          <Link to="/login" className={styles.cursor}>
+            로그인/회원가입
+          </Link>
         )}
       </div>
     </div>

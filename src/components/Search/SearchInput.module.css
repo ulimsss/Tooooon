@@ -1,0 +1,62 @@
+.inputWrapper{
+  width: calc(100vw - 20%);
+  margin: 0 auto;
+
+}
+.inputHeader{
+  margin-top: 130px;
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-left: 20px;
+}
+.form{
+  margin: 40px auto;
+  /* width: 80%;
+  height: 50px; */
+  position: relative;
+  transition: all 1s;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  /* border: 4px solid white; */
+  padding: 5px;
+
+  background: rgba(255,255,255,0.8);
+}
+.searchInput{
+  position: absolute;
+  /* margin: 0 auto; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1rem;
+  border-radius: 25px;
+  padding: 0 15px;
+  background: inherit;
+  color: #000;
+}
+.form i{
+  box-sizing: border-box;
+  padding: 14px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  /* border-radius: 50%; */
+  color: #07051a;
+  text-align: center;
+  font-size: 1.3em;
+  transition: all 1s;
+}
+
+.form:hover{
+    width: 100%;
+    cursor: pointer;
+}
+.form:hover input{
+    display: block;
+}
