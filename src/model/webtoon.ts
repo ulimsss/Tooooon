@@ -1,5 +1,6 @@
+/* eslint-disable indent */
 // eslint-disable-next-line import/no-extraneous-dependencies
-import { selector } from 'recoil';
+import { atom, selector, selectorFamily } from 'recoil';
 
 const productsURL = '/data/webtoon.json';
 
@@ -14,6 +15,11 @@ export interface Webtoon {
   URL: string;
 }
 
+export const searchedWebtoonState = atom<Webtoon[]>({
+  key: 'webtoonsList',
+  default: [],
+});
+
 export const webtoonsList = selector<Webtoon[]>({
   key: 'webtoonsList',
   get: async () => {
@@ -25,4 +31,14 @@ export const webtoonsList = selector<Webtoon[]>({
     }
     return null;
   },
+});
+
+export const webtoonSearch = selectorFamily({
+  key: 'webtoonSearch',
+  get:
+    (name) =>
+    async ({ get }) => {
+      const webtoons = get(searchedWebtoonState);
+      return webtoons.filter((webtoon) => webtoon.name === name);
+    },
 });
